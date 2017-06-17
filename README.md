@@ -1,5 +1,7 @@
 # WaveWeb2.0
 
+Update and rebuild in Node of https://github.com/samturner3/GoogleCalendar_to_WaveAccounting_CustomerIntegration
+
 ## TO DO:
 
 Gets clients via Google API
