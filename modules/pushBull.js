@@ -1,7 +1,7 @@
 var PushBullet = require('pushbullet');
-var pusher = new PushBullet('o.ZI389peEmcFSUIKkx6iKcGUXEhsU3Mwh');
+var pusher = new PushBullet(process.env.PUSHBULLET_API_KEY);
 
-const deviceParams = 'ujvFmS1iv8usjz8IpH3hXo';
+const deviceParams = process.env.PUSHBULLET_DEVICE_PARAMS;
 
 // pusher.devices(function(error, response) {
 // 	// response is the JSON response from the API
